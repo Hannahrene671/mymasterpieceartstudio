@@ -1,0 +1,104 @@
+body, h2{
+font-family: 'Raleway', sans-serif;
+margin:0;
+width:100%;
+}
+
+
+nav ul, footer {
+	font-family: 'Gurajada', serif;
+	letter-spacing: 2px;
+}
+
+
+main h1{
+	color:#5da1d8;
+}
+
+
+h1{
+	font-family: 'Eczar', serif;
+	
+}
+
+nav{
+	display: inline-block;
+	position: inline;
+	list-style-type: none;	
+	list-style: none;
+}
+
+nav a{
+	color:#032a82;
+	text-decoration: none;
+	display: inline-block;
+	position: inline;
+	list-style-type: none;	
+	list-style: none;
+}
+
+nav a:hover {
+	color:white;
+	text-decoration: none;
+}
+
+
+
+header{
+	background-color: #ffb600;
+	width: 100%
+	margin:0px, 0px, 0px, 0px;
+	padding:0px, 0px, 0px, 0px;
+}
+
+footer{
+	background-color:#5da1d8;
+}
+
+.homepage{
+	position: center;
+	margin:auto;
+	background-color:#032a82;
+	width:60%;
+	padding-bottom:40px;
+	padding-top:40px;
+	padding-right:50px; 
+	padding-left:40px; 
+	align-content: center;
+	color: white;
+	border-radius: 20px;
+
+}
+
+.homepage a{
+	color:#5da1d8;
+}
+
+.homepage a:hover{
+	color:#ffb600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
