@@ -1,13 +1,28 @@
+body{
+	margin:0;
+	padding:0;
+	width:100%;
+}
+
 body, h2{
 font-family: 'Raleway', sans-serif;
-margin:0;
-width:100%;
+}
+
+header{
+	background-color: #ffb600;
+	width: 100%
+	margin:0px, 0px, 0px, 0px;
 }
 
 
 nav ul, footer {
 	font-family: 'Gurajada', serif;
 	letter-spacing: 2px;
+	display: inline-grid;
+}
+
+nav{
+	text-align: center;
 }
 
 
@@ -18,21 +33,24 @@ main h1{
 
 h1{
 	font-family: 'Eczar', serif;
-	
 }
 
-nav{
-	display: inline-block;
-	position: inline;
-	list-style-type: none;	
+
+nav ul{
 	list-style: none;
+	display: inline-block;
+	text-align: center;
+}
+
+nav li{
+	display: inline-block;
+	text-align: center;
+	padding-right: 80px;
 }
 
 nav a{
 	color:#032a82;
 	text-decoration: none;
-	display: inline-block;
-	position: inline;
 	list-style-type: none;	
 	list-style: none;
 }
@@ -43,23 +61,20 @@ nav a:hover {
 }
 
 
-
-header{
-	background-color: #ffb600;
-	width: 100%
-	margin:0px, 0px, 0px, 0px;
-	padding:0px, 0px, 0px, 0px;
-}
-
-footer{
-	background-color:#5da1d8;
+.tagline {
+	position: center;
+	margin: auto;
+	width: 60%;
+	align-content: center;
+	text-align: center;
+	color: #5da1d8;
 }
 
 .homepage{
 	position: center;
 	margin:auto;
 	background-color:#032a82;
-	width:60%;
+	width:45%;
 	padding-bottom:40px;
 	padding-top:40px;
 	padding-right:50px; 
@@ -67,7 +82,10 @@ footer{
 	align-content: center;
 	color: white;
 	border-radius: 20px;
+}
 
+.homepage h2{
+	text-align: center;
 }
 
 .homepage a{
@@ -77,6 +95,114 @@ footer{
 .homepage a:hover{
 	color:#ffb600;
 }
+
+.highlights {
+	position: center;
+	text-align: center;
+	margin: auto;
+	width: 90%;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	padding-right: 40px; 
+	padding-left: 40px; 
+	color: white;
+}
+
+.artyparty {
+	width:290px;
+	background-color: #E2836D;
+	border-radius: 20px;
+	padding-bottom:20px;
+	padding-top:20px;
+	padding-right:20px; 
+	padding-left:20px; 
+	color: white; 
+	display: inline-grid;
+	margin:20px;
+}
+
+.artyparty a {
+	color: white;
+}
+
+.artyparty a:hover{
+	color: #032a82;
+}
+
+
+.arthour{
+	width:290px;
+	background-color: #E2836D;
+	border-radius: 20px;
+	padding-bottom:20px;
+	padding-top:20px;
+	padding-right:20px; 
+	padding-left:20px; 
+	color: white;
+	text-align: center;
+	display: inline-grid;
+	margin:20px;
+}
+
+.arthour a {
+	color: white;
+}
+
+.arthour a:hover{
+	color: #032a82;
+}
+
+.minimasters{
+	width:290px;
+	background-color: #E2836D;
+	border-radius: 20px;
+	padding-bottom:20px;
+	padding-top:20px;
+	padding-right:20px; 
+	padding-left:20px; 
+	color: white;
+	text-align: center;
+	display: inline-grid;
+	margin:20px;
+}
+
+.minimasters a {
+	color: white;
+}
+
+.minimasters a:hover{
+	color: #032a82;
+}
+
+
+.bizinfo{
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	color:#032a82;
+	position: left
+	width: 20%;
+	padding-bottom:40px;
+	padding-top:40px;
+	padding-right:140px; 
+	padding-left:20px;
+	display: inline-grid;
+}
+
+.bizinfo b{
+	color: #E2836D ;
+}
+
+
+
+footer{
+	width:100%;
+	background-color:#5da1d8;
+	margin: 0;
+	color: white;
+	text-align: center;
+	padding:0;
+}
+
 
 
 
