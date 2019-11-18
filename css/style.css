@@ -1,12 +1,18 @@
+
+/*font-family: 'Eczar', serif;
+font-family: 'Raleway', sans-serif;*/
+/*font-family: 'Gurajada', serif;*/
+
+
 body{
 	margin:0;
 	padding:0;
 	width:100%;
 }
 
-body, h2{
+/*body, h2{
 font-family: 'Raleway', sans-serif;
-}
+}*/
 
 header{
 	background-color: #ffb600;
@@ -15,10 +21,14 @@ header{
 }
 
 
-nav ul, footer {
-	font-family: 'Gurajada', serif;
+nav ul,{
 	letter-spacing: 2px;
 	display: inline-grid;
+	margin: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 nav{
@@ -26,26 +36,24 @@ nav{
 }
 
 
-main h1{
-	color:#5da1d8;
-}
-
-
-h1{
-	font-family: 'Eczar', serif;
-}
 
 
 nav ul{
 	list-style: none;
 	display: inline-block;
 	text-align: center;
+	padding-left: 0;
 }
 
+
+
 nav li{
-	display: inline-block;
+	font-family: 'Gurajada', serif;
+	letter-spacing: 2px;
+	display: inline-grid;
 	text-align: center;
-	padding-right: 80px;
+	margin-right: 40px;
+	margin-left: 40px;
 }
 
 nav a{
@@ -68,31 +76,37 @@ nav a:hover {
 	align-content: center;
 	text-align: center;
 	color: #5da1d8;
+	font-family: 'Eczar', serif;
 }
 
 .homepage{
+	font-family: 'Raleway', sans-serif;
 	position: center;
 	margin:auto;
 	background-color:#032a82;
-	width:45%;
-	padding-bottom:40px;
-	padding-top:40px;
-	padding-right:50px; 
-	padding-left:40px; 
-	align-content: center;
-	color: white;
+	width:75%;
 	border-radius: 20px;
 }
 
-.homepage h2{
-	text-align: center;
+.homepagecontent{
+	margin: auto;
+	align-content: center;
+	color: white;
+	width:65%;
+	padding:30px;
+	
 }
 
-.homepage a{
+.homepagecontent h2{
+	text-align: center;
+	margin:auto;
+}
+
+.homepagecontent a{
 	color:#5da1d8;
 }
 
-.homepage a:hover{
+.homepagecontent a:hover{
 	color:#ffb600;
 }
 
@@ -100,16 +114,14 @@ nav a:hover {
 	position: center;
 	text-align: center;
 	margin: auto;
-	width: 90%;
+	width: 100%;
 	padding-bottom: 40px;
-	padding-top: 40px;
-	padding-right: 40px; 
-	padding-left: 40px; 
+	padding-top: 40px; 
 	color: white;
 }
 
 .artyparty {
-	width:290px;
+	width:300px;
 	background-color: #E2836D;
 	border-radius: 20px;
 	padding-bottom:20px;
@@ -119,10 +131,23 @@ nav a:hover {
 	color: white; 
 	display: inline-grid;
 	margin:20px;
+	font-family: 'Raleway', sans-serif;
+
 }
 
 .artyparty a {
 	color: white;
+	text-decoration: none;
+	font-family: 'Eczar', serif;
+	letter-spacing: 2px;
+}
+
+.artyparty p {
+	margin:0;
+}
+
+.artyparty h1 {
+	margin-bottom:0;
 }
 
 .artyparty a:hover{
@@ -131,7 +156,7 @@ nav a:hover {
 
 
 .arthour{
-	width:290px;
+	width:300px;
 	background-color: #E2836D;
 	border-radius: 20px;
 	padding-bottom:20px;
@@ -142,18 +167,30 @@ nav a:hover {
 	text-align: center;
 	display: inline-grid;
 	margin:20px;
+	font-family: 'Raleway', sans-serif;
 }
 
 .arthour a {
 	color: white;
+	text-decoration: none;
+	font-family: 'Eczar', serif;
+	letter-spacing: 2px;
 }
 
 .arthour a:hover{
 	color: #032a82;
 }
 
+.arthour p {
+	margin:0;
+}
+
+.arthour h1 {
+	margin-bottom:0;
+}
+
 .minimasters{
-	width:290px;
+	width:300px;
 	background-color: #E2836D;
 	border-radius: 20px;
 	padding-bottom:20px;
@@ -164,18 +201,47 @@ nav a:hover {
 	text-align: center;
 	display: inline-grid;
 	margin:20px;
+	font-family: 'Raleway', sans-serif;
 }
 
 .minimasters a {
 	color: white;
+	text-decoration: none;
+	font-family: 'Eczar', serif;
+	letter-spacing: 2px;
 }
 
 .minimasters a:hover{
 	color: #032a82;
 }
 
+.minimasters p {
+	margin:0;
+}
 
-.bizinfo{
+.minimasters h1 {
+	margin-bottom:0;
+}
+
+
+.frame {
+	width:600px;
+	height:1030px;
+	border-radius: 20px;
+	background-color: #E2836D;
+	padding: 0;
+	margin:auto;
+	align-content: center;
+}
+
+iframe {
+	padding: 0;
+	margin: 0;
+	padding-bottom: 100px;
+}
+
+
+.bizinfofooter{
 	font-family: 'Raleway', sans-serif;
 	font-size: 13px;
 	color:#032a82;
@@ -188,20 +254,33 @@ nav a:hover {
 	display: inline-grid;
 }
 
-.bizinfo b{
-	color: #E2836D ;
+
+
+.bizinfofooter b{
+	color: white;
 }
 
+.footertagline{
+	text-align: center;
+	font-family: 'Gurajada', serif;
+	letter-spacing: 2px;
+	margin: auto;
+}
+.footertagline p{
+	padding: 0;
+	margin: 0;
+	}
 
 
 footer{
 	width:100%;
 	background-color:#5da1d8;
-	margin: 0;
+	margin-top: 50px;
+	margin-left: : 0;
 	color: white;
-	text-align: center;
 	padding:0;
 }
+
 
 
 
