@@ -29,42 +29,6 @@ color: #5DA1D8; light blue
 							margin:0px, 0px, 0px, 0px;
 						}
 
-/*page structure*/
-
-						.bizinfofooter{
-							font-family: 'Raleway', sans-serif;
-							font-size: 13px;
-							color:#032a82;
-							position: left
-							width: 20%;
-							padding-bottom:40px;
-							padding-top:40px;
-							padding-right:140px; 
-							padding-left:20px;
-							display: inline-grid;
-						}
-
-/*page structure*/
-
-						.bizinfofooter b{
-							color: white;
-						}
-
-/*page structure*/
-
-						.footertagline{
-							text-align: center;
-							font-family: 'Gurajada', serif;
-							letter-spacing: 2px;
-							margin: auto;
-						}
-
-/*page structure*/
-
-						.footertagline p{
-							padding: 0;
-							margin: 0;
-							}
 
 /*page structure*/
 
@@ -72,10 +36,42 @@ color: #5DA1D8; light blue
 							width:100%;
 							background-color:#5da1d8;
 							margin-top: 50px;
-							margin-left: : 0;
+							margin-left: 0;
 							color: white;
 							padding:0;
 						}
+
+						footer p{
+							padding: 0;
+							margin: 0;
+						}
+
+
+						.bizinfofooter{
+							font-family: 'Raleway', sans-serif;
+							font-size: 13px;
+							color:#032a82;
+							margin: 10px;
+							padding: 30px;
+							width: 100%;
+							display: grid;
+						}
+/*page structure*/
+						.bizinfofooter b{
+							color: white;
+						}
+
+						.footertagline{
+							text-align: center;
+							font-family: 'Gurajada', serif;
+							letter-spacing: 2px;
+							margin: auto;
+						}
+/*page structure*/
+						.footertagline p{
+							padding: 0;
+							margin: 0;
+							}
 
 
 /* navbar */
@@ -155,6 +151,30 @@ color: #5DA1D8; light blue
 							border-radius: 20px;
 						}
 
+
+
+						.indexshape1{
+								position: absolute;
+								top:170px;
+								left:-30px;
+								margin: -30;
+								padding: 0;
+								display:fixed;
+								width:250px;
+						}
+
+
+						.indexshape2{
+							position: absolute;
+							left:1250px;
+							top:200px;
+							margin: 0;
+							padding: 0;
+							display: fixed;
+							width:450px;
+
+						}
+
 /* index page */
 
 						.homepagecontent{
@@ -191,10 +211,16 @@ color: #5DA1D8; light blue
 							position: center;
 							text-align: center;
 							margin: auto;
-							width: 100%;
-							padding-bottom: 40px;
-							padding-top: 40px; 
+							margin-top: 60px;
+							margin-bottom: 20px;
+							width: 90%;
+							padding-bottom: 20px;
+							padding-top: 20px; 
 							color: white;
+							background-color: #E2836D;
+							border-radius: 20px;
+
+
 						}
 
 /* index page */
@@ -207,7 +233,7 @@ color: #5DA1D8; light blue
 							padding-top:20px;
 							padding-right:20px; 
 							padding-left:20px; 
-							color: #E2836D;
+							color: white;
 							text-align: center;
 							display: inline-grid;
 							margin:20px;
@@ -217,7 +243,7 @@ color: #5DA1D8; light blue
 /* index page */
 
 						.artyparty a {
-							color: #E2836D;
+							color: white;
 							text-decoration: none;
 							font-family: 'Eczar', serif;
 							letter-spacing: 2px;
@@ -247,7 +273,7 @@ color: #5DA1D8; light blue
 							padding-top:20px;
 							padding-right:20px; 
 							padding-left:20px; 
-							color: #E2836D;
+							color: white;
 							text-align: center;
 							display: inline-grid;
 							margin:20px;
@@ -257,7 +283,7 @@ color: #5DA1D8; light blue
 /* index page */
 
 						.arthour a {
-							color: #E2836D;
+							color: white;
 							text-decoration: none;
 							font-family: 'Eczar', serif;
 							letter-spacing: 2px;
@@ -285,7 +311,7 @@ color: #5DA1D8; light blue
 							padding-top:20px;
 							padding-right:20px; 
 							padding-left:20px; 
-							color: #E2836D;
+							color: white;
 							text-align: center;
 							display: inline-grid;
 							margin:20px;
@@ -295,7 +321,7 @@ color: #5DA1D8; light blue
 /* index page */
 
 						.minimasters a {
-							color: #E2836D;
+							color: white;
 							text-decoration: none;
 							font-family: 'Eczar', serif;
 							letter-spacing: 2px;
