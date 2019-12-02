@@ -35,10 +35,11 @@ color: #5DA1D8; light blue
 						footer{
 							width:100%;
 							background-color:#5da1d8;
-							margin-top: 50px;
-							margin-left: 0;
+							margin: auto;
+							text-align: center;
 							color: white;
 							padding:0;
+
 						}
 
 						footer p{
@@ -51,27 +52,45 @@ color: #5DA1D8; light blue
 							font-family: 'Raleway', sans-serif;
 							font-size: 13px;
 							color:#032a82;
-							margin: 10px;
-							padding: 30px;
 							width: 100%;
-							display: grid;
+							margin: auto;
+							
+						}
+
+						.footergrid{
+							display: inline-grid;
+							width: 20%;
+							padding: 30px;
+						}
+
+						.footermap{
+							width: 90%;
+							height: 30%;
+							margin: auto;
+							padding: 30px;
+							background-color: #5C7A4B;
+							border-radius: 20px;
 						}
 /*page structure*/
 						.bizinfofooter b{
 							color: white;
 						}
 
+
 						.footertagline{
 							text-align: center;
 							font-family: 'Gurajada', serif;
 							letter-spacing: 2px;
 							margin: auto;
+							padding: 30px;
 						}
 /*page structure*/
 						.footertagline p{
 							padding: 0;
 							margin: 0;
 							}
+
+						
 
 
 /* navbar */
@@ -151,27 +170,48 @@ color: #5DA1D8; light blue
 							border-radius: 20px;
 						}
 
+						.homepage2{
+							font-family: 'Raleway', sans-serif;
+							position: center;
+							margin:auto;
+							padding: 100px;
+							color:#032a82;
+							width:60%;
+						}
+
+						.homepage2 a{
+							color:#5da1d8;
+						}
+
+/* index page */
+
+						.homepage2 a:hover{
+							color:#ffb600;
+						}
+
 
 
 						.indexshape1{
 								position: absolute;
 								top:170px;
-								left:-30px;
+								left:-70px;
 								margin: -30;
 								padding: 0;
 								display:fixed;
 								width:250px;
+								z-index: -10;
 						}
 
 
 						.indexshape2{
 							position: absolute;
-							left:1250px;
-							top:200px;
+							left:82%;
+							top:40%;
 							margin: 0;
 							padding: 0;
 							display: fixed;
-							width:450px;
+							width:250px;
+							z-index: -10;
 
 						}
 
@@ -365,6 +405,7 @@ color: #5DA1D8; light blue
 							margin: auto;
 							align-content:center;
 							padding-bottom: 10px; 
+							padding: 50px;
 						}
 
 
@@ -386,7 +427,10 @@ color: #5DA1D8; light blue
 							width:95%;
 							margin: auto;
 							align-content:center;
+							padding-top: 20px;
 							padding-left: 60px;
+							padding-right: 60px;
+							padding-bottom: 60px;
 						}
 
 						.openstudiopackages h1 {
