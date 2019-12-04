@@ -38,7 +38,8 @@ color: #5DA1D8; light blue
 							margin: auto;
 							text-align: center;
 							color: white;
-							padding:0;
+							margin-top: 70px;
+							padding-top: 25px;
 
 						}
 
@@ -165,8 +166,9 @@ color: #5DA1D8; light blue
 							font-family: 'Raleway', sans-serif;
 							position: center;
 							margin:auto;
+							margin-top: 30px;
 							background-color:#032a82;
-							width:75%;
+							width:60%;
 							border-radius: 20px;
 						}
 
@@ -236,7 +238,7 @@ color: #5DA1D8; light blue
 							align-content: center;
 							color: white;
 							width:65%;
-							padding:30px;
+							padding: 30px;
 							
 						}
 
@@ -409,7 +411,7 @@ color: #5DA1D8; light blue
 						.openstudiointro{
 							font-family: 'Raleway', sans-serif;
 							color:#5da1d8;
-							width:80%;
+							width:50%;
 							margin:auto;
 							align-content:center;
 						}
@@ -433,7 +435,7 @@ color: #5DA1D8; light blue
 							font-family: 'Raleway', sans-serif;
 							color: #032a82;
 
-/* openstudio page */
+/* openstudio page */	
 
 						}
 
@@ -473,7 +475,30 @@ color: #5DA1D8; light blue
 							margin-top: 0;
 						}
 
-/* openstudio page */
+/* openstudio page */	
+						.openstudioshape1{
+								position: absolute;
+								top:170px;
+								left:-30px;
+								margin: -30;
+								padding: 0;
+								display:fixed;
+								width:250px;
+								z-index: -10;
+						}
+
+
+						.openstudioshape2{
+							position: absolute;
+							right:-35px;
+							top:32%;
+							margin: 0;
+							padding: 0;
+							display: fixed;
+							width:250px;
+							z-index: -10;
+
+						}
 						.packagegrid{
 							display:inline-grid;
 							width:18%;
@@ -651,12 +676,142 @@ color: #5DA1D8; light blue
 							margin:0;
 						}
 
+						.eventsgrid h2{
+							font-family: 'Eczar', serif;
+							color: #5DA1D8;
+							margin:auto;
+							text-align: center;
+							text-decoration: none;
+							padding: 20px;
+						}
+
+						.eventsgrid a{
+							font-family: 'Eczar', serif;
+							color: #5C7A4B;
+							margin:auto;
+							text-align: center;
+							text-decoration: none;
+						}
+
+						.eventsgrid h2 a:hover{
+							color: #FFB600;
+						}
+
+						.eventsshape1{
+								position: absolute;
+								top:170px;
+								left:-30px;
+								margin: -30;
+								padding: 0;
+								display:fixed;
+								width:250px;
+								z-index: -10;
+						}
+
+
+						.eventsshape2{
+							position: absolute;
+							right:-35px;
+							top:32%;
+							margin: 0;
+							padding: 0;
+							display: fixed;
+							width:250px;
+							z-index: -10;
+
+						}
+
+						.eventsshape3{
+								position: absolute;
+								top:1500px;
+								left:-30px;
+								margin: -30;
+								padding: 0;
+								display:fixed;
+								width:250px;
+								z-index: -10;
+						}
+
+
+						.eventsshape4{
+							position: absolute;
+							right:-35px;
+							top:300%;
+							margin: 0;
+							padding: 0;
+							display: fixed;
+							width:250px;
+							z-index: -10;
+
+						}
+
+						.eventsshape5{
+							position: absolute;
+							left:-100px;
+							top:385%;
+							margin: 0;
+							padding: 0;
+							display: fixed;
+							width:500px;
+							z-index: -10;
+
+						}
+
 						.subgrid{
 							display: inline-grid;
 							width: 40%;
 							grid-auto-flow: row;
 							padding:5px;
 						}
+
+						.kidsparty{
+							background-color: #5DA1D8; 
+							width: 50%;
+							border-radius: 20px;
+							margin: auto;
+							margin-top: 100px;
+							margin-bottom: 100px;
+							padding-left:200px;
+							padding-right: 200px;
+							padding-top:70px;
+							padding-bottom: 70px;
+						}
+						.kidsparty h1{
+							font-family: 'Eczar', serif;
+						 	color: #032A82;
+						 	letter-spacing: 1px;
+							padding-bottom: 40px;
+							
+							margin: 0;
+							text-align: center;
+						}
+
+						.kidsparty h2{
+							font-family: 'Eczar', serif;
+							color: #032A82;
+							padding: 0;
+							margin: 0;
+							padding-top:;
+						}
+
+						.kidsparty h4{
+							font-family: 'Eczar', serif;
+						 color: white; 
+							padding: 0;
+							margin: 0;
+							letter-spacing: 1px;
+						}
+
+						.kidsparty p{
+							font-family: 'Raleway', sans-serif;
+							color: white;
+							padding-top:0;
+							padding-bottom:20px;
+							padding-right:0;
+							padding-left:0;
+							margin:0;
+						}
+
 
 						.adultgrid{
 							display: inline-grid;
@@ -667,10 +822,10 @@ color: #5DA1D8; light blue
 						}
 
 						.foradults{
-							width:90%;
+							width:70%;
 							margin: auto;
 							align-content:	center;
-							padding: 0;
+							padding-bottom: 60px;
 						}
 
 /*event page*/
@@ -693,7 +848,6 @@ color: #5DA1D8; light blue
 						}
 
 						.masterpiecenight{
-							width:85%;
 							margin: auto;
 							align-content: center;
 						}
@@ -764,11 +918,78 @@ color: #5DA1D8; light blue
 
 
 /*classes page*/
-						.classescontainer {
-							width:80%;
+						.classesintro{
+							font-family: 'Raleway', sans-serif;
+							color:#5da1d8;
+							width:65%;
 							margin:auto;
 							align-content:center;
+							text-align: center;
 						}
+						.classescontainer {
+							width:100%;
+							margin: auto;
+							align-content:center;
+						}
+
+						.privatelessons {
+							width:50%;
+							margin: auto;
+							padding-top: 70px;
+							align-content:center;
+						}
+
+						.privatelessons h1{
+							font-family: 'Eczar', serif;
+							color: #ffb600;
+							padding: 0;
+							margin: auto;
+							margin: 0;
+						}
+
+						.privatelessons h3{
+							font-family: 'Eczar', serif;
+							color: #E2836D;
+							margin: auto;
+							padding: 0;
+							margin: 0;
+						}
+
+						.privatelessons p{
+							font-family: 'Raleway', sans-serif;
+							color: #032a82;
+							margin: auto;
+						}
+
+
+
+						.classesintro a{
+							font-family: 'Eczar', serif;
+							text-decoration: none;
+							color: #5C7A4B;
+							margin: auto;
+							text-align: center;
+						}
+
+						.classesintro a:hover{
+							font-family: 'Eczar', serif;
+							text-decoration: none;
+							color: #ffb600;
+							
+						}
+
+						.classgrid{
+							display: inline-grid;
+							width: 38%;
+							margin: auto;
+							margin-left: 80px;
+							margin-right: 80px;
+							margin-top: 10px;
+							margin-bottom: 10px;
+
+						}
+
+					
 
 						.arthourclass h1{
 							font-family: 'Eczar', serif;
@@ -852,9 +1073,7 @@ color: #5DA1D8; light blue
 						}
 
 
-/*classes page*/
-
-
+/*classes page*/	
 						.portfolioclass h1{
 							font-family: 'Eczar', serif;
 							color: #ffb600;
@@ -978,6 +1197,23 @@ color: #5DA1D8; light blue
 						}
 
 /*camps page*/
+						
+						.campsintro {
+							font-family: 'Raleway', sans-serif;
+							color:#5da1d8;
+							width:50%;
+							margin:auto;
+							align-content:center;
+						}
+
+						.campsintro{
+							font-family: 'Raleway', sans-serif;
+							color:#5da1d8;
+							width:50%;
+							margin:auto;
+							align-content:center;
+						}
+
 						.campscontainer{
 							width:80%;
 							margin:auto;
@@ -990,7 +1226,6 @@ color: #5DA1D8; light blue
 							color: #ffb600;
 							padding: 0;
 							margin: 0;
-
 						}
 
 						.campscontainer h2{
@@ -998,9 +1233,31 @@ color: #5DA1D8; light blue
 							color: #E2836D;
 							padding: 0;
 							margin: 0;
-
 						}
 
+						.campsintro{
+							text-align: center;
+						}
+
+						.campsintro h2 a{
+							font-family: 'Eczar', serif;
+							color: #5DA1D8;
+							margin:auto;
+							text-align: center;
+							text-decoration: none;
+						}
+
+						.campsintro h2 a{
+							font-family: 'Eczar', serif;
+							color: #5C7A4B;
+							margin:auto;
+							text-align: center;
+							text-decoration: none;
+						}
+
+						.campsintro h2 a:hover{
+							color: #FFB600;
+						}
 						.campscontainer h3{
 							font-family: 'Eczar', serif;
 							color: #5DA1D8;
@@ -1036,9 +1293,11 @@ color: #5DA1D8; light blue
 /* contact page */      
 						
 						.ilsaquote{
-							width:70%;
+							width:55%;
 							margin:auto;
 							align-content:center;
+							margin-top:70px;
+							margin-bottom:70px;
 						}
 
 						.ilsaquote h1{
@@ -1090,19 +1349,33 @@ color: #5DA1D8; light blue
 /* contact page */
 
 						.frame {
-							width:600px;
+							width:1000px;
 							height:1030px;
 							border-radius: 20px;
 							background-color: #E2836D;
 							padding: 0;
 							margin:auto;
 							align-content: center;
+							margin-top:70px;
+							margin-bottom:70px;
 						}
 
 						iframe {
 							padding: 0;
 							margin: 0;
 							padding-bottom: 100px;
+							margin:auto;
+							align-content: center;
+						}
+
+						.aboutgrid
+						{
+						display: inline-grid;
+						width:27%;
+						padding: 10px;
+						margin: auto;
+						margin-right: 125px;
+						margin-left:  125px;
 						}
 
 
