@@ -230,6 +230,55 @@ color: #5DA1D8; light blue
 						}
 
 
+						
+
+
+
+						.indexpicture2{
+							position: absolute;
+							left:56%;
+							top:83%;
+							margin: 0;
+							padding: 0;
+							display: fixed;
+							width:400px;
+							z-index: -13;
+							opacity: .2;
+							
+						}
+
+
+						.classpicture1{
+
+							position: absolute;
+							left:55%;
+							top:210%;
+							margin: 0;
+							padding: 0;
+							display: fixed;
+							width:400px;
+							z-index: -13;
+							opacity: .2;
+
+						}
+
+							.classpicture2{
+
+							position: absolute;
+							left:20%;
+							top:150%;
+							margin: 0;
+							padding: 0;
+							display: fixed;
+							width:400px;
+							z-index: -13;
+							opacity: .2;
+
+						}
+
+
+
+
 
 /* index page */
 
